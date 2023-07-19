@@ -1,0 +1,50 @@
+Zan-afk
+ls list folders
+mkdir directory making
+cd change directory
+git init Initialized empty Git repository
+touch make new file
+git status shows history of making changes
+git add (photo of repo) staging area stage
+git commit -m "add file" it will add or take the photo of file for save
+git restore --staged names.txt it will remove what we have added recent files or folders by git add .it will restore of take the photo of file for save
+git log entire history of project
+rm -rf for delete file
+git reset delete all commets before  hash id which will make project as earlier it was by deleteing some recent changes and this deleted files goes to unstage area by git status we can see this files
+git stash (photo not taken waiting in back of stage) when we dnt want to commit changes
+git stash pop will display the stash files
+git stash clear will clear the all stash file
+          *************************-----------------------github*************************-----------------------
+git remote add origin  it will connect the git folder to the github url
+git push origin master will push git folder to github acc repo. 
+by using pull requst we can make changes in main repo
+upstrem url is from where u fork repo. which means the another account from where you fork the project
+git remote add upstream +url of project's account will add url of upstream
+git remote -v gives status of upstream and origin url
+git branch +branchname adding a branch to git file 
+git checkout +branchname gives a pointer or head to that branch
+one branch have one pull req(pr) only so other feature will added by git add. in that commit or brach only. if we cannot open new pr by new branch it will difficult to review our code
+force push is done when there is change in git file who is already uploaded on github
+or we have added some file on github and we dont want it then first it will delete from our git log then force push the file we want
+git fetch --all --prune is change is done in main branch where we want to maintain updated changes done by upstream repo or same as upstream branch which was done orupdated by there editor. this will maintain in our local repo.after fetch --all comand we have to run another command 
+i.e git reset --hard upstream/main 
+git pull upstream main  this will add all commit changes of main/upstream branch in local folder same as above
+git rebase -i (hash code of commit)merge all commits into single one
+
+git remote rename origin desti  this will change origin name to desti
+git remote set-url --add desti https://github.com/Zan-afk/github-tutorial.git this will add url to origin
+git remote set-url --delete origin https://github.com/WeMakeDevs/github-tutorial.git to delete origin url
+
+
+
+
+sudo '/opt/lampp/manager-linux-x64.run'  this command runs xammp server
+
+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
+git init 
+git status
+git add 
+git commit -m ""
+git remote add origin url
+git push -u origin master
+
